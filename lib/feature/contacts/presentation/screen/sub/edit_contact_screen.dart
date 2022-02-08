@@ -1,6 +1,6 @@
-import 'package:crud/feature/models/contact.dto.dart';
-import 'package:crud/feature/presentation/bloc/contact_list_bloc.dart';
-import 'package:crud/feature/presentation/bloc/contact_list_state.dart';
+import 'package:crud/feature/contacts/models/contact.dto.dart';
+import 'package:crud/feature/contacts/presentation/bloc/contact_list_bloc.dart';
+import 'package:crud/feature/contacts/presentation/bloc/contact_list_state.dart';
 import 'package:crud/widgets/app_text_form_field.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

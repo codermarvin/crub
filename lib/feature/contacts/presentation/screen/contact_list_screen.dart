@@ -1,20 +1,20 @@
-import 'package:crud/feature/models/contact.dto.dart';
-import 'package:crud/feature/presentation/bloc/contact_list_bloc.dart';
-import 'package:crud/feature/presentation/bloc/contact_list_state.dart';
-import 'package:crud/feature/presentation/screen/sub/add_contact_screen.dart';
-import 'package:crud/feature/presentation/screen/sub/edit_contact_screen.dart';
+import 'package:crud/feature/contacts/models/contact.dto.dart';
+import 'package:crud/feature/contacts/presentation/bloc/contact_list_bloc.dart';
+import 'package:crud/feature/contacts/presentation/bloc/contact_list_state.dart';
+import 'package:crud/feature/contacts/presentation/screen/sub/add_contact_screen.dart';
+import 'package:crud/feature/contacts/presentation/screen/sub/edit_contact_screen.dart';
 import 'package:crud/widgets/contact_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class ContactScreen extends StatefulWidget {
-  const ContactScreen({Key? key}) : super(key: key);
+class ContactListScreen extends StatefulWidget {
+  const ContactListScreen({Key? key}) : super(key: key);
 
   @override
-  State<ContactScreen> createState() => _ContactScreenState();
+  State<ContactListScreen> createState() => _ContactListScreenState();
 }
 
-class _ContactScreenState extends State<ContactScreen> {
+class _ContactListScreenState extends State<ContactListScreen> {
   late ContactListBloc contactListBloc;
   List<Contact> contacts = <Contact>[];
 

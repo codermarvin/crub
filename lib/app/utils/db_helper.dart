@@ -1,4 +1,4 @@
-import 'package:crud/feature/models/contact.dto.dart';
+import 'package:crud/feature/contacts/models/contact.dto.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 

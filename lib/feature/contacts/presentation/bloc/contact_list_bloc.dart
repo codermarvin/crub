@@ -1,8 +1,7 @@
 import 'package:crud/app/utils/db_helper.dart';
-import 'package:crud/feature/models/contact.dto.dart';
+import 'package:crud/feature/contacts/models/contact.dto.dart';
+import 'package:crud/feature/contacts/presentation/bloc/contact_list_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'contact_list_state.dart';
 
 class ContactListBloc extends Cubit<ContactListState> {
   ContactListBloc() : super(ContactListInitialState());

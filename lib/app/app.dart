@@ -1,4 +1,4 @@
-import 'package:crud/feature/presentation/screen/contact_screen.dart';
+import 'package:crud/feature/contacts/presentation/screen/contact_list_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -6,6 +6,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ContactScreen());
+    return const MaterialApp(home: ContactListScreen());
   }
 }
