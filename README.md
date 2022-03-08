@@ -1,6 +1,6 @@
 # crud
 
-A new Flutter project.
+A new Flutter project which is part of technical exam for Unilab.
 
 ## Getting Started
 
